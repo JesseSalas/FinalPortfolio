@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<html>
+
+<title>What I learned</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<link rel="stylesheet" type="text/css" href="index2.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="index.css">
+<link rel="icon" href="http://www.davenportschools.org/west/files/2016/05/cropped-Picture2-2-32x32.png" sizes="32x32" />
+</head>
+<body class="w3-theme-l5">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align w3-large">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-opennav w3-right w3-padding-large w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-theme-d4"><i class="fa fa-Star w3-margin-right"></i>About</a>
+  <a href="http://www.davenportschools.org/west/" class="w3-bar-item w3-button w3-padding-large w3-theme-d3"><i class="fa fa-circle w3-margin-right"></i></a>
+  <a href="facebook.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title=""><i class=""></i></a>
+  <a href="twitter.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title=""><i class=""></i>Web Language</a>
+  <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white" title=""><i class=""></i>Best Of My Work</a>
+
+
+ </div>
+</div>
+
+<!-- Navbar on small screens -->
+
+
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:150px">
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card-2 w3-round w3-white">
+        <div class="w3-container">
+         <hr>
+
+        </div>
+      </div>
+      <br>
+
+      <!-- Accordion -->
+      <div class="w3-card-2 w3-round">
+        <div class="w3-white">
+          <button onclick="window.open('https://calendar.google.com/calendar/embed?src=davenport.k12.ia.us_406nml3nbbrlrmad6a3defcp0s%40group.calendar.google.com&ctz=America/Chicago')" class="w3-btn-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Band Calendar</button>
+
+          <div id="Demo3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+
+
+         </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+      <!-- Clubs -->
+      <div class="w3-card-2 w3-round w3-grey w3-hide-small">
+        <div class="w3-container">
+
+
+
+
+          <br><br>
+          <img src="images/Atom.jpg" alt="Clubs" width="320px";height"300px">
+
+
+        </div>
+      </div>
+    <!-- End Left Column -->
+    </div>
+
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+
+      <div class="w3-container w3-card-2 w3-white w3-round w3-margin"><br>
+
+        <h1>What I've learned</h1><br>
+        <hr class="w3-clear">
+        <p> I have learned a lot in this class. </p>
+
+      </div>
+
+
+  <!-- End Grid -->
+  </div>
+
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer -->
+<footer class="w3-container w3-theme-d3 w3-padding-16">
+  <h5>Footer</h5>
+  <p> Created by: Jesse Salas</p>
+</footer>
+
+
+<script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+        x.previousElementSibling.className += " w3-theme-d1";
+    } else {
+        x.className = x.className.replace("w3-show", "");
+        x.previousElementSibling.className =
+        x.previousElementSibling.className.replace(" w3-theme-d1", "");
+    }
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
